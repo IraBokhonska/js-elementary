@@ -30,7 +30,7 @@ const userAge = prompt("What is your age?");
 alert(`My age is ${userAge}.`);
 console.log(`My age is ${userAge}.`);
 
-const lengthSquare = prompt("What is length of a square side?");
+const lengthSquare = prompt("What is the length of a square side?");
 const perimeterSquare = lengthSquare * 4;
 alert(`The perimeter of a square is ${perimeterSquare}.`);
 console.log(`The perimeter of a square is ${perimeterSquare}.`);
@@ -43,5 +43,5 @@ console.log(`The radius of a circle is ${circleArea}.`);
 const sumOfDollars = prompt("How many dollars do you have?");
 const courseOfEuro = 0.907;
 const sumOfEuro = courseOfEuro * sumOfDollars;
-alert(`The sum of euro is ${sumOfEuro}.`);
-console.log(`The sum of euro is ${sumOfEuro}.`);
+alert(`The sum of euro is ${sumOfEuro}€.`);
+console.log(`The sum of euro is ${sumOfEuro}€.`);
